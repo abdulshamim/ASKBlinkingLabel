@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1ABBFE32FD09DCAFC4711E7B8DD5F456 /* Pods-ASKBlinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2008021799300EEA8C04BEF1E34355 /* Pods-ASKBlinkingLabel_Example-dummy.m */; };
-		4EF4FA5521EFA859000B6B0D /* ASKBlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4FA5421EFA859000B6B0D /* ASKBlinkingLabel.swift */; };
+		4EF4FA5A21EFB0AE000B6B0D /* ASKBlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF4FA5921EFB0AE000B6B0D /* ASKBlinkingLabel.swift */; };
 		6C41B5A15E0ED23898C7AF049ED526BB /* Pods-ASKBlinkingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09907BEE823524F92346CEF56B30D012 /* Pods-ASKBlinkingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FF239AE2B93B23846BFD71842630BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		8A69C080B502FD6C62F2ABDAD0C5B4B9 /* ASKBlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF80D7020C2BA2D2CCD9E65BCE9A4146 /* ASKBlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,7 +48,7 @@
 		3AAC6FFD601C2237A58579DB251253EE /* Pods-ASKBlinkingLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASKBlinkingLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		42C2283F3D7E76D8B47062DF4933E4E1 /* Pods-ASKBlinkingLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASKBlinkingLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B99BC913880CAC5495F15D7FB00B599 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4EF4FA5421EFA859000B6B0D /* ASKBlinkingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASKBlinkingLabel.swift; sourceTree = "<group>"; };
+		4EF4FA5921EFB0AE000B6B0D /* ASKBlinkingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASKBlinkingLabel.swift; sourceTree = "<group>"; };
 		52B5CC6158B4C0146731EF48AF2461BD /* Pods-ASKBlinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASKBlinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6D6486DF34EA98B8AE6CFFD7F3271AFD /* Pods-ASKBlinkingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASKBlinkingLabel_Example.modulemap"; sourceTree = "<group>"; };
 		72EED81DAC2C9CAB4B8C133BFC8DB627 /* Pods-ASKBlinkingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASKBlinkingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +154,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		4EF4FA5B21EFB26F000B6B0D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4FA5921EFB0AE000B6B0D /* ASKBlinkingLabel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7071754296F3D220827269506EB09F90 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,9 +212,9 @@
 		C0285D5E85C6F35BFC39001BF2ADD640 /* ASKBlinkingLabel */ = {
 			isa = PBXGroup;
 			children = (
+				4EF4FA5B21EFB26F000B6B0D /* Classes */,
 				742817800C83BC117A3D2AAB34B2E20F /* Pod */,
 				40CE764EA0628CADEE2116773BE67FAD /* Support Files */,
-				4EF4FA5421EFA859000B6B0D /* ASKBlinkingLabel.swift */,
 			);
 			name = ASKBlinkingLabel;
 			path = ../..;
@@ -385,7 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EF4FA5521EFA859000B6B0D /* ASKBlinkingLabel.swift in Sources */,
+				4EF4FA5A21EFB0AE000B6B0D /* ASKBlinkingLabel.swift in Sources */,
 				AE7660AADB063E83079C7067A946915D /* ASKBlinkingLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

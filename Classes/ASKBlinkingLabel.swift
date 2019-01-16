@@ -2,7 +2,7 @@
 //  ASKBlinkingLabel.swift
 //  ASKBlinkingLabel
 //
-//  Created by Abdul Shamim on 16/01/19.
+//  Created by Abdul Shamim on 17/01/19.
 //
 
 import Foundation
