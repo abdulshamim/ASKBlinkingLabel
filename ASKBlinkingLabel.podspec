@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASKBlinkingLabel'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ASKBlinkingLabel.'
+  s.version          = '1.0.0'
+  s.summary          = 'This framework is made to learn cocoapods framework'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                            Learning new thing is always cool. Try to learn new things daily.
                        DESC
 
-  s.homepage         = 'https://github.com/abdul.shamimkhan5@gmail.com/ASKBlinkingLabel'
+  s.homepage         = 'https://github.com/abdulshamim/ASKBlinkingLabel.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'abdul.shamimkhan5@gmail.com' => 'abdul.shamim@jungleworks.co' }

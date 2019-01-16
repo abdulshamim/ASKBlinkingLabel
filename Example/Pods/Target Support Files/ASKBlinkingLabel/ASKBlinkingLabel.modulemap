@@ -1,0 +1,6 @@
+framework module ASKBlinkingLabel {
+  umbrella header "ASKBlinkingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

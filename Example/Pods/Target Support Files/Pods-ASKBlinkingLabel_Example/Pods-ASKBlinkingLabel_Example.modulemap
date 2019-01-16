@@ -1,0 +1,6 @@
+framework module Pods_ASKBlinkingLabel_Example {
+  umbrella header "Pods-ASKBlinkingLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

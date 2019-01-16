@@ -1,0 +1,22 @@
+{
+  "name": "ASKBlinkingLabel",
+  "version": "0.1.0",
+  "summary": "A short description of ASKBlinkingLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/abdul.shamimkhan5@gmail.com/ASKBlinkingLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "abdul.shamimkhan5@gmail.com": "abdul.shamim@jungleworks.co"
+  },
+  "source": {
+    "git": "https://github.com/abdul.shamimkhan5@gmail.com/ASKBlinkingLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ASKBlinkingLabel/Classes/**/*"
+}
