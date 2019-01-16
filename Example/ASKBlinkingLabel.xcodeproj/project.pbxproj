@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		15EB158664283F96D7FF47F2 /* Pods-ASKBlinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASKBlinkingLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-ASKBlinkingLabel_Example/Pods-ASKBlinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		314F3BD732380AEF11AE8FAD /* Pods-ASKBlinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASKBlinkingLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-ASKBlinkingLabel_Example/Pods-ASKBlinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		436922FC087BC8476D1F1A56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		436922FC087BC8476D1F1A56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ASKBlinkingLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASKBlinkingLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		8EE79D3FDEF6927D1B51CCB6 /* Pods_ASKBlinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASKBlinkingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CF3832BD9A39C7FDBF978F /* Pods_ASKBlinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASKBlinkingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA044E317F404CB01A4BCDF /* Pods-ASKBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASKBlinkingLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-ASKBlinkingLabel_Tests/Pods-ASKBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CB5D21284EAF197438A6D0FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DCEFE0F95EAC47D735873B10 /* ASKBlinkingLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASKBlinkingLabel.podspec; path = ../ASKBlinkingLabel.podspec; sourceTree = "<group>"; };
+		CB5D21284EAF197438A6D0FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DCEFE0F95EAC47D735873B10 /* ASKBlinkingLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASKBlinkingLabel.podspec; path = ../ASKBlinkingLabel.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				66FE01EAE3240D73F46DA917 /* Pods-ASKBlinkingLabel_Tests.debug.xcconfig */,
 				ACA044E317F404CB01A4BCDF /* Pods-ASKBlinkingLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -483,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASKBlinkingLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -498,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASKBlinkingLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

@@ -1,5 +1,5 @@
 import XCTest
-import ASKBlinkingLabel
+//import ASKBlinkingLabel
 
 class Tests: XCTestCase {
     
